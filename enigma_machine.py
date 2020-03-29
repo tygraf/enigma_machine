@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sys # needed for inputs
 import random
 import math
 import os
@@ -148,5 +147,3 @@ class enigma_machine:
         output2.close()
         output3.close()
         output4.close()
-
-# Next steps: make rotors move, confirm both decrypt and encrypt (this will require static rotor settings)
